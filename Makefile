@@ -42,7 +42,7 @@ all: $(NAME)
 
 
 $(NAME): $(OBJS)
-	$(CC) $(FLAGS) -c $(SRCS)
+	$(CC) $(CFLAGS) -c $(SRCS)
 	ar rcs $(NAME) $(OBJS)
 
 
